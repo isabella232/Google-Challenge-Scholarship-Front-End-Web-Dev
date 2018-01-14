@@ -1,0 +1,12 @@
+You've learned a lot about web development so far. I want you to take a moment to write down your thoughts about web development here. Answer the following questions:
+  * What new skills have you learned? I learned the html elements. Such as <s>, <em>, <sup>, <sub> and <hr>.
+  * What has been easy?  It has been a little difficult. Because it makes me hard to find html elements.
+  * What has been difficult? Finding new html elements. It was difficult to search for a specific part of a document structure without knowing the terminology. Like <s> <sup>...
+  * How have you used the problem solving strategies from the first project to overcome challenges so far?
+  First, googleing it!
+  Sencond, find elements from W3School!
+  
+
+---
+
+Your response goes here!
