@@ -1,0 +1,27 @@
+/* add your CSS here */
+.card{
+	box-shadow: 5px 10px 20px #BBB;
+	width: 350px; 
+	padding-left: 20px;
+}
+.card-image{
+	width: 300px;
+}
+.card-information{
+		width: 280px;
+    padding: 0 10px 0 10px;
+    margin-bottom: 20px;
+}
+.interesting-fact{
+	font-style: italic;
+}
+.item-list{
+	list-style-type: none;
+	padding-left: 15px;
+}
+.item-list span{
+	font-weight: bold;
+}
+.border {
+	border: 1px solid #DDD;
+}
