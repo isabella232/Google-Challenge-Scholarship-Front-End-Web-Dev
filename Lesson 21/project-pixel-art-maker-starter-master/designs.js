@@ -9,22 +9,25 @@ function init(){
 	});	
 }
 
+const table = $('#pixelCanvas');
+const inputHeight = $('#input-height');
+const inputWidth = $('#input-width');
+
 /**
 * @description Make the grid table
 */
 function makeGrid() {
-	const table = document.getElementById('pixelCanvas');
-	
 	//Delete previous rows.
-	while(table.rows.length > 0){
-		table.deleteRow(0);
-	}
+	table.innerHtml = "";
+
+	const height = inputHeight.value;
+	const width = inputWidth.value;
 
 	//Make grid
-	for(let i = 0; i < $('#inputHeight').val(); i++){
+	for(let i = 0; i < height; i++){
 			//isnert row
 			const row = table.insertRow(i);
-		for(let j=0; j< $('#inputWeight').val(); j++){
+		for(let j=0; j< width; j++){
 			//insert cell
 			const cell = row.insertCell(j);
 			//add event listener each cell.
